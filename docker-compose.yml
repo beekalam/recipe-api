@@ -26,3 +26,5 @@ services:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=jjj
+    ports:
+      - "5432:54320"
